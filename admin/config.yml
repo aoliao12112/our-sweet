@@ -1,28 +1,76 @@
 backend:
-  name: local-git
-  local_backend: true
-  # 替换成你自己的 GitHub 账号和仓库名
-  repo: aoliao12112/our-sweet
-  # 这里写 main 或者 master，看你 Hexo 源码在哪个分支（通常是 main）
-  branch: main 
-
-# 认证媒介配置
-base_url: https://api.netlify.com
-auth_endpoint: /auth
-
-# 媒体文件（图片）存放的路径
-media_folder: source/img
-public_folder: /img
-
-# 文章结构配置（告诉后台怎么创建 .md 文件）
+  name: git-gateway
+  branch: master
+media_folder: source/images
+public_folder: /images
+path: admin
+config:
+  backend:
+    name: git-gateway
+    branch: main
+  media_folder: source/img
+  public_folder: img
+  collections:
+    - name: posts
+      label: 文章
+      folder: source/_posts
+      create: true
+      fields:
+        - name: title
+          label: 标题
+          widget: string
+        - name: date
+          label: 发布时间
+          widget: datetime
+        - name: tags
+          label: 标签
+          widget: list
+        - name: categories
+          label: 分类
+          widget: list
+        - name: body
+          label: 正文
+          widget: markdown
 collections:
-  - name: "blog"
-    label: "文章"
-    folder: "source/_posts" # 文章存放目录
-    create: true # 允许在后台创建新文章
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 文件名格式
+  - name: all_posts
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "发布时间", name: "date", widget: "datetime" }
-      - { label: "标签", name: "tags", widget: "list", required: false }
-      - { label: "正文内容", name: "body", widget: "markdown" }
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+        dateFormat: YYYY-MM-DD
+        timeFormat: HH:mm:ss
+        format: YYYY-MM-DD HH:mm:ss
+        required: false
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+      - label: Categories
+        name: categories
+        widget: list
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
+      - label: Permalink
+        name: permalink
+        widget: string
+        required: false
+      - label: Comments
+        name: comments
+        widget: boolean
+        default: true
+        required: false
+    label: Post
+    folder: source/_posts
+    create: true
+    editor:
+      preview: true
+  - label: Page
+    name: pages
+    delete: false
+    files: []
