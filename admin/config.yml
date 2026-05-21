@@ -1,0 +1,27 @@
+backend:
+  name: github
+  # 替换成你自己的 GitHub 账号和仓库名
+  repo: aoliao12112/our-sweet
+  # 这里写 main 或者 master，看你 Hexo 源码在哪个分支（通常是 main）
+  branch: main 
+
+# 认证媒介配置
+base_url: https://api.netlify.com
+auth_endpoint: /auth
+
+# 媒体文件（图片）存放的路径
+media_folder: source/img
+public_folder: /img
+
+# 文章结构配置（告诉后台怎么创建 .md 文件）
+collections:
+  - name: "blog"
+    label: "文章"
+    folder: "source/_posts" # 文章存放目录
+    create: true # 允许在后台创建新文章
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 文件名格式
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布时间", name: "date", widget: "datetime" }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "正文内容", name: "body", widget: "markdown" }
