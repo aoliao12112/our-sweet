@@ -26,6 +26,14 @@ jobs:
       - name: Build Hexo
         run: npm run build
 
+      - name: List public directory contents (调试用)
+        run: |
+          echo "=== public 目录内容 ==="
+          ls -la public/
+          echo ""
+          echo "=== 所有文件列表（前50个） ==="
+          find public -type f | head -50
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
