@@ -23,6 +23,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Download Fluid theme (直接下载主题到本地)
+        run: |
+          mkdir -p themes/fluid
+          curl -L https://github.com/fluid-dev/hexo-theme-fluid/archive/refs/tags/v1.9.9.tar.gz | tar xz --strip-components=1 -C themes/fluid
+
       - name: Build Hexo
         run: npm run build
 
@@ -31,8 +36,8 @@ jobs:
           echo "=== public 目录内容 ==="
           ls -la public/
           echo ""
-          echo "=== 所有文件列表（前50个） ==="
-          find public -type f | head -50
+          echo "=== 所有文件数量 ==="
+          find public -type f | wc -l
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
