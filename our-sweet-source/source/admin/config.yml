@@ -1,0 +1,38 @@
+# Decap CMS (原 Netlify CMS) 配置
+# 文档：https://decapcms.org/docs/
+
+backend:
+  name: github
+  repo: aoliao12112/our-sweet
+  branch: main
+  base_url: https://api.github.com
+  auth_endpoint: auth
+
+# 媒体文件配置
+media_folder: "source/img"
+public_folder: "/img"
+
+# 内容集合
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "source/_posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm:ss", format: "YYYY-MM-DD HH:mm:ss" }
+      - { label: "作者", name: "author", widget: "string", required: false }
+      - { label: "分类", name: "categories", widget: "list", required: false }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - label: "页面"
+    name: "pages"
+    files:
+      - label: "关于"
+        name: "about"
+        file: "source/about/index.md"
+        fields:
+          - { label: "标题", name: "title", widget: "string" }
+          - { label: "正文", name: "body", widget: "markdown" }

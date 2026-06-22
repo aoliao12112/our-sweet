@@ -1,0 +1,128 @@
+# ---------------------------
+# Hexo Fluid 主题配置
+# 文档：https://hexo.fluid-dev.com/docs/
+# ---------------------------
+
+# 导航栏
+navbar:
+  blog_title: 齐了！凑一桌
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', text: 'Home' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', text: 'Archives' }
+    - { key: 'categories', link: '/categories/', icon: 'iconfont icon-category-fill', text: 'Categories' }
+    - { key: 'tags', link: '/tags/', icon: 'iconfont icon-tags-fill', text: 'Tags' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', text: 'About' }
+  search:
+    enable: true
+  color_toggle:
+    enable: true
+
+# 首页大图
+index:
+  banner_img: /img/default.png
+  banner_img_height: 100vh
+  subtitle:
+    enable: true
+    text: An elegant Material-Design theme for Hexo
+    typing:
+      enable: true
+      typeSpeed: 70
+      cursorChar: "_"
+      loop: false
+
+# 文章页
+post:
+  banner_img: /img/default.png
+  meta:
+    date:
+      enable: true
+      format: YYYY-MM-DD
+    category:
+      enable: true
+    tag:
+      enable: true
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+  toc:
+    enable: true
+    expand_all: true
+    placement: right
+    headingSelector: h1,h2,h3,h4,h5,h6
+    collapseDepth: 0
+  image_caption:
+    enable: true
+  image_zoom:
+    enable: true
+  lazyload:
+    enable: true
+    loading_img: /img/loading.gif
+    onlypost: false
+    offset_factor: 2
+  code_language:
+    enable: true
+    default: TEXT
+  copy_btn: true
+  anchorjs:
+    enable: true
+    element: h1,h2,h3,h4,h5,h6
+    placement: left
+    visible: hover
+    icon: ""
+
+# 进度条
+progressbar:
+  enable: true
+  height_px: 3
+  color: "#29d"
+  options:
+    showSpinner: false
+    trickleSpeed: 100
+
+# 本地搜索
+search:
+  enable: true
+  path: /local-search.xml
+  include_content_in_search: true
+
+# 页脚
+footer:
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+
+# 深色模式
+color_scheme:
+  enable: true
+  default: auto
+
+# 统计
+web_analytics:
+  enable: false
+  follow_dnt: true
+  baidu:
+  google:
+    measurement_id:
+  tencent:
+    sid:
+    cid:
+  leancloud:
+    app_id:
+    app_key:
+    server_url:
+    path: window.location.pathname
+    ignore_local: false
+  openkounter:
+    server_url: https://open-kounter.mintimate.cn
+    path: window.location.pathname
+    ignore_local: false
+  umami:
+    src:
+    website_id:
+    domains:
+    start_time: 2024-01-01T00:00:00.000Z
+    token:
+    api_server:
