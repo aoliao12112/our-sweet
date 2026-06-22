@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>📝 傻瓜发帖指南</title>
+    <link href="/our-sweet/2026/06/22/%E5%8F%91%E5%B8%96%E6%8C%87%E5%8D%97/"/>
+    <url>/our-sweet/2026/06/22/%E5%8F%91%E5%B8%96%E6%8C%87%E5%8D%97/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>🎉 欢迎来到我们的小博客！这是一篇超详细的发帖教程，看完你也能轻松发文章~</p></blockquote><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>不用装任何软件，不用懂代码，只要你会打字、会发朋友圈，就能发帖子！</p><p>全程 5 步，包教包会~</p><hr><h2 id="🚀-发帖-5-步走"><a href="#🚀-发帖-5-步走" class="headerlink" title="🚀 发帖 5 步走"></a>🚀 发帖 5 步走</h2><h3 id="第-1-步：打开-GitHub-并登录"><a href="#第-1-步：打开-GitHub-并登录" class="headerlink" title="第 1 步：打开 GitHub 并登录"></a>第 1 步：打开 GitHub 并登录</h3><p>打开 <a href="https://github.com,登录你的账号./">https://github.com，登录你的账号。</a></p><hr><h3 id="第-2-步：进入我们的博客仓库"><a href="#第-2-步：进入我们的博客仓库" class="headerlink" title="第 2 步：进入我们的博客仓库"></a>第 2 步：进入我们的博客仓库</h3><p>打开这个地址：<a href="https://github.com/aoliao12112/our-sweet">https://github.com/aoliao12112/our-sweet</a></p><hr><h3 id="第-3-步：新建一个-Issue"><a href="#第-3-步：新建一个-Issue" class="headerlink" title="第 3 步：新建一个 Issue"></a>第 3 步：新建一个 Issue</h3><p>点顶部导航栏的 <strong>Issues</strong>（小圆圈带感叹号的图标）</p><p>然后点右上角的绿色按钮 <strong>New issue</strong></p><hr><h3 id="第-4-步：写文章"><a href="#第-4-步：写文章" class="headerlink" title="第 4 步：写文章"></a>第 4 步：写文章</h3><ul><li><strong>标题（Title）</strong>：写你的文章标题</li><li><strong>内容（Write）</strong>：写你的文章正文，想怎么写就怎么写</li></ul><blockquote><p>💡 小建议：开头可以写个分类，比如「分类：杂谈」，方便管理员整理。</p></blockquote><hr><h3 id="第-5-步：提交"><a href="#第-5-步：提交" class="headerlink" title="第 5 步：提交"></a>第 5 步：提交</h3><p>写完之后，拉到最下面，点绿色的 <strong>Submit new issue</strong> 按钮。</p><p>就完啦！🎉</p><hr><h3 id="然后呢？"><a href="#然后呢？" class="headerlink" title="然后呢？"></a>然后呢？</h3><p>提交之后，管理员会看到你的文章，整理后发布到博客上。</p><p>一般 1-2 天内就会发布，着急的话可以催催管理员~</p><hr><h2 id="✨-简单排版技巧"><a href="#✨-简单排版技巧" class="headerlink" title="✨ 简单排版技巧"></a>✨ 简单排版技巧</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br></code></pre></td></tr></table></figure><h3 id="文字效果"><a href="#文字效果" class="headerlink" title="文字效果"></a>文字效果</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-strong">**粗体**</span><br><span class="hljs-emphasis">*斜体*</span><br>~~删除线~~<br></code></pre></td></tr></table></figure><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>无序列表：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-bullet">-</span> 第一点<br><span class="hljs-bullet">-</span> 第二点<br></code></pre></td></tr></table></figure><p>有序列表：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-bullet">1.</span> 第一<br><span class="hljs-bullet">2.</span> 第二<br></code></pre></td></tr></table></figure><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-quote">&gt; 这是一段引用的话</span><br></code></pre></td></tr></table></figure><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>直接把图片拖到编辑框里，GitHub 会自动帮你上传！</p><hr><h2 id="❓-常见问题"><a href="#❓-常见问题" class="headerlink" title="❓ 常见问题"></a>❓ 常见问题</h2><p><strong>Q: 写完之后多久能发到博客上？</strong><br>A: 我看到就会整理发布，当然大概率你们要是不告诉我也想不起来看 😅</p><p><strong>Q: 写错了能改吗？</strong><br>A: 当然可以！找到你发的 Issue，点右上角 ✏️ 编辑，改完保存就行。</p><p><strong>Q: 能发图片吗？</strong><br>A: 可以！直接把图片拖到编辑框里就行。</p><p><strong>Q: 我想给别人的文章评论怎么办？</strong><br>A: 直接在对应的 Issue 下面评论，大家都能看到~</p><hr><h2 id="🎯-好了，去试试吧！"><a href="#🎯-好了，去试试吧！" class="headerlink" title="🎯 好了，去试试吧！"></a>🎯 好了，去试试吧！</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>公告</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/our-sweet/2026/05/20/hello-world/"/>
+    <url>/our-sweet/2026/05/20/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
